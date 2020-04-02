@@ -1,0 +1,47 @@
+{
+  "resources": [
+    {
+      "path": "/{scope}/providers/Microsoft.CostManagement/dimensions",
+      "apiVersion": "2019-11-01",
+      "providerNamespace": "microsoft.costmanagement",
+      "name": "dimensions"
+    },
+    {
+      "path": "/{scope}/providers/Microsoft.CostManagement/query",
+      "apiVersion": "2019-11-01",
+      "providerNamespace": "microsoft.costmanagement",
+      "name": "query"
+    },
+    {
+      "path": "/{scope}/providers/Microsoft.CostManagement/exports",
+      "apiVersion": "2019-11-01",
+      "providerNamespace": "microsoft.costmanagement",
+      "name": "exports"
+    },
+    {
+      "path": "/{scope}/providers/Microsoft.CostManagement/exports/{exportName}",
+      "apiVersion": "2019-11-01",
+      "providerNamespace": "microsoft.costmanagement",
+      "name": "exports"
+    },
+    {
+      "path": "/{scope}/providers/Microsoft.CostManagement/exports/{exportName}/run",
+      "apiVersion": "2019-11-01",
+      "providerNamespace": "microsoft.costmanagement",
+      "name": "exports/run"
+    },
+    {
+      "path": "/{scope}/providers/Microsoft.CostManagement/exports/{exportName}/runHistory",
+      "apiVersion": "2019-11-01",
+      "providerNamespace": "microsoft.costmanagement",
+      "name": "exports/runHistory"
+    },
+    {
+      "path": "/providers/Microsoft.CostManagement/operations",
+      "apiVersion": "2019-11-01",
+      "providerNamespace": "microsoft.costmanagement",
+      "name": "operations"
+    }
+  ],
+  "operations": {}
+}
