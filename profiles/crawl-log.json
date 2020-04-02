@@ -1,0 +1,47 @@
+{
+  "resources": [
+    {
+      "path": "/providers/Microsoft.VMwareVirtustream/operations",
+      "apiVersion": "2019-08-09-preview",
+      "providerNamespace": "microsoft.vmwarevirtustream",
+      "name": "operations"
+    },
+    {
+      "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.VMwareVirtustream/privateClouds",
+      "apiVersion": "2019-08-09-preview",
+      "providerNamespace": "microsoft.vmwarevirtustream",
+      "name": "privateClouds"
+    },
+    {
+      "path": "/subscriptions/{subscriptionId}/providers/Microsoft.VMwareVirtustream/privateClouds",
+      "apiVersion": "2019-08-09-preview",
+      "providerNamespace": "microsoft.vmwarevirtustream",
+      "name": "privateClouds"
+    },
+    {
+      "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.VMwareVirtustream/privateClouds/{privateCloudName}",
+      "apiVersion": "2019-08-09-preview",
+      "providerNamespace": "microsoft.vmwarevirtustream",
+      "name": "privateClouds"
+    },
+    {
+      "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.VMwareVirtustream/privateClouds/{privateCloudName}/clusters",
+      "apiVersion": "2019-08-09-preview",
+      "providerNamespace": "microsoft.vmwarevirtustream",
+      "name": "privateClouds/clusters"
+    },
+    {
+      "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.VMwareVirtustream/privateClouds/{privateCloudName}/clusters/{clusterName}",
+      "apiVersion": "2019-08-09-preview",
+      "providerNamespace": "microsoft.vmwarevirtustream",
+      "name": "privateClouds/clusters"
+    },
+    {
+      "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.VMwareVirtustream/privateClouds/{privateCloudName}/listAdminCredentials",
+      "apiVersion": "2019-08-09-preview",
+      "providerNamespace": "microsoft.vmwarevirtustream",
+      "name": "privateClouds/listAdminCredentials"
+    }
+  ],
+  "operations": {}
+}
