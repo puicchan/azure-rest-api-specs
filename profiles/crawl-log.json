@@ -1,0 +1,47 @@
+{
+  "resources": [
+    {
+      "path": "/providers/Microsoft.SecurityInsights/operations",
+      "apiVersion": "2020-01-01",
+      "providerNamespace": "microsoft.securityinsights",
+      "name": "operations"
+    },
+    {
+      "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/providers/Microsoft.SecurityInsights/alertRules",
+      "apiVersion": "2020-01-01",
+      "providerNamespace": "microsoft.securityinsights",
+      "name": "alertRules"
+    },
+    {
+      "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/providers/Microsoft.SecurityInsights/alertRules/{ruleId}",
+      "apiVersion": "2020-01-01",
+      "providerNamespace": "microsoft.securityinsights",
+      "name": "alertRules"
+    },
+    {
+      "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/providers/Microsoft.SecurityInsights/alertRules/{ruleId}/actions",
+      "apiVersion": "2020-01-01",
+      "providerNamespace": "microsoft.securityinsights",
+      "name": "alertRules/actions"
+    },
+    {
+      "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/providers/Microsoft.SecurityInsights/alertRules/{ruleId}/actions/{actionId}",
+      "apiVersion": "2020-01-01",
+      "providerNamespace": "microsoft.securityinsights",
+      "name": "alertRules/actions"
+    },
+    {
+      "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/providers/Microsoft.SecurityInsights/dataConnectors",
+      "apiVersion": "2020-01-01",
+      "providerNamespace": "microsoft.securityinsights",
+      "name": "dataConnectors"
+    },
+    {
+      "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/providers/Microsoft.SecurityInsights/dataConnectors/{dataConnectorId}",
+      "apiVersion": "2020-01-01",
+      "providerNamespace": "microsoft.securityinsights",
+      "name": "dataConnectors"
+    }
+  ],
+  "operations": {}
+}
